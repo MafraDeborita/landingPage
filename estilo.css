@@ -1,0 +1,91 @@
+
+*{
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap')
+
+    margin: 0; /*espaço entre as divs e linhas*/
+    padding: 0; /*preenchimento*/
+}
+
+body{
+    background-image: url(imagens/fundo02.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+
+.img-header{
+    width: 100px auto;
+    padding: 20px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    background-color: rgb(48, 85, 133);
+    height: 10rem;
+    color: black;
+    
+}
+header ul{
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+#titulo{
+    display: flex;
+    align-items: center;
+}
+
+/* .img {
+    height: 100px;
+} */
+main{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 40px;
+    margin-top: 12rem;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    background-image: url('bg.jpg');
+    
+    
+}
+#titulo{
+    display: flex;
+
+}
+
+button{
+    margin-top: 8rem;
+    font-size: 40px;
+    background-color: brown;
+    border-radius: 10px;
+    
+    
+}
+
+/* img {
+    border-radius: 300px;
+    margin: 20px;
+} */
+
+a{
+    color: black;
+}
+
+.container{
+    background-color: gray;
+    opacity: 1;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    
+}
