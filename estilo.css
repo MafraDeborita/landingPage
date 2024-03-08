@@ -84,8 +84,13 @@ a{
     opacity: 1;
 }
 
-footer{
+footer img{
     display: flex;
     flex-direction: row;
-    
+}
+
+#rodape{
+    font-size: 30px;
+    color: black;
+    padding-right: 10px;
 }
