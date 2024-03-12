@@ -85,12 +85,18 @@ a{
 }
 
 footer img{
-    display: flex;
-    flex-direction: row;
+   justify-items: left;
+   border-radius: 50%;
+
 }
 
 #rodape{
     font-size: 30px;
     color: black;
-    padding-right: 10px;
+   display: flex;
+}
+
+footer{
+    display: flex;
+    
 }
